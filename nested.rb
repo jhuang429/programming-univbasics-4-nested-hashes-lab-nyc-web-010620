@@ -41,7 +41,6 @@ def alan_kay_is_known_for
 		 programmer_hash[:alan_kay][:known_for]
 end
 
-changing_alan[:alan_kay][:known_for] = "GUI"
 
 
 def dennis_ritchies_language
@@ -113,6 +112,7 @@ def changing_alan
 		programmer_hash[:alan_kay][:known_for] = alans_new_info
 end
 
+changing_alan[:alan_kay][:known_for] = "GUI"
 
 def adding_to_dennis
 	programmer_hash =
